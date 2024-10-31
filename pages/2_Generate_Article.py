@@ -28,7 +28,7 @@ if st.button("Generate Article"):
                 model = ChatOpenAI(openai_api_key=openai_api_key, model="gpt-3.5-turbo-16k")  # Update model as needed
 
                 messages = [
-                    SystemMessage(content="Act like a researcher in management studies and produce an academic article with a scientific qualitative methodology"),
+                    SystemMessage(content="Act like an expert in blog writing and produce an article"),
                     HumanMessage(content="Write an article about " + topic),
                 ]
 
